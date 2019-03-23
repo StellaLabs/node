@@ -62,5 +62,6 @@ RUN set -ex \
   && apt -y -qq update \
   && apt install -y python-pip python-dev \
   && pip install awscli
-
+RUN apt update -y 
+RUN apt install nano vi wget curl -y
 CMD [ "node" ]
