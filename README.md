@@ -1,5 +1,5 @@
 # Node.js
-![StellaLabs](http://stellatechnology.com/assets/images/logo.svg | width="200")
+ <img src="http://stellatechnology.com/assets/images/logo.svg" alt="StellaLabs">
 
 The official Node.js docker image, made with love by the node community.
 
