@@ -1,9 +1,9 @@
 # Node.js
 
-[![dockeri.co](http://dockeri.co/image/_/node)](https://registry.hub.docker.com/_/node/)
+[![dockeri.co](https://hub.docker.com/r/stellalabs/node)](https://hub.docker.com/r/stellalabs/node)
 
-[![GitHub issues](https://img.shields.io/github/issues/nodejs/docker-node.svg "GitHub issues")](https://github.com/nodejs/docker-node)
-[![GitHub stars](https://img.shields.io/github/stars/nodejs/docker-node.svg "GitHub stars")](https://github.com/nodejs/docker-node)
+[![GitHub issues](http://stellatechnology.com/assets/images/logo.svg "GitHub issues")](https://github.com/StellaLabs/node)
+[![GitHub stars](http://stellatechnology.com/assets/images/logo.svg "GitHub stars")](https://github.com/StellaLabs/node)
 
 The official Node.js docker image, made with love by the node community.
 
@@ -48,7 +48,7 @@ See: http://nodejs.org
 
 ```dockerfile
 # specify the node base image with your desired version node:<version>
-FROM node:6
+FROM stellalabs/node:6
 # replace this with your application's default port
 EXPOSE 8888
 ```
@@ -66,7 +66,7 @@ If you prefer Docker Compose:
 version: "2"
 services:
   node:
-    image: "node:8"
+    image: "stellalabs/node:8"
     user: "node"
     working_dir: /home/node/app
     environment:
@@ -99,7 +99,7 @@ complete `Dockerfile`. In such cases, you can run a Node.js script by using the
 Node.js Docker image directly:
 
 ```console
-$ docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app -w /usr/src/app node:8 node your-daemon-or-script.js
+$ docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app -w /usr/src/app stellalabs/node:8 node your-daemon-or-script.js
 ```
 
 ### Verbosity
