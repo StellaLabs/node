@@ -3,7 +3,6 @@
 [![dockeri.co](https://hub.docker.com/r/stellalabs/node)](https://hub.docker.com/r/stellalabs/node)
 
 [![GitHub issues](http://stellatechnology.com/assets/images/logo.svg "GitHub issues")](https://github.com/StellaLabs/node)
-[![GitHub stars](http://stellatechnology.com/assets/images/logo.svg "GitHub stars")](https://github.com/StellaLabs/node)
 
 The official Node.js docker image, made with love by the node community.
 
